@@ -28,7 +28,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Twitter Topic Sensor</title>
+    <title>Twitter Public Tweet Search</title>
 
     <!-- Page styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
@@ -53,7 +53,7 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <font color="#000">Twitter Topic Sensor</font>
+            <font color="#000">Twitter Tweet Search</font>
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -67,7 +67,7 @@
           </div>
           <!-- Navigation -->
           <span class="android-mobile-title mdl-layout-title">
-            Twitter Topic Sensor
+            Twitter Tweet Search
           </span>
           <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
             <i class="material-icons">person</i>
@@ -79,14 +79,14 @@
       </div>
 
       <div class="android-drawer mdl-layout__drawer">
-      
+
       </div>
 
       <div class="android-content mdl-layout__content" style="position:fixed; width: 100%">
         <a name="top"></a>
         <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">fetch. clean. sense.</div>
-          <div class="logo-font android-sub-slogan">a tool to mine data from twitter and sense useful topics</div>
+          <div class="logo-font android-slogan">find. .. ..</div>
+          <div class="logo-font android-sub-slogan">a tool to mine data from twitter and find targeted audience</div>
           <br/>
           <center>
             <a href="/twitter/connect"><img src="img/signin.png" height="50px"></a>
