@@ -1,0 +1,201 @@
+.mdl-card {
+	min-height: 0px;
+	width: 100%;
+}
+.searchbox {
+	border: 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 67%;
+}
+.searchbox:focus {
+	outline: none;
+}
+h2.mdl-card__title-text {
+	width: 100%;
+}
+.search-filter {
+	margin-top: 20px;
+}
+.search-filter:after, 
+.search-filter:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.search-filter:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 19px;
+    left: 50%;
+    margin-left: -19px;
+}
+.search-filter:before {
+    border-color: rgba(113, 158, 206, 0);
+    border-bottom-color: #ddd;
+    border-width: 20px;
+    left: 50%;
+    margin-left: -20px;
+}
+.mdl-card {
+	overflow: visible;
+}
+.label-title {
+	font-weight: bold;
+}
+
+select {
+  font-family: inherit;
+  background-color: transparent;
+  width: 80%;
+  padding: 4px 0;
+  font-size: 16px;
+  color: rgba(0,0,0, 0.26);
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0, 0.12);
+  border-radius: 0px;
+}
+
+/* Remove focus */
+select:focus {
+  outline: none}
+
+/* Hide label */
+.mdl-selectfield label {display: none;}
+/* Use custom arrow */
+.mdl-selectfield select {appearance: none}
+.mdl-selectfield {
+  font-family: 'Roboto','Helvetica','Arial',sans-serif;
+  position: relative;
+    &:after {
+        position: absolute;
+        top: 0.75em;
+        right: 0.5em;
+        /* Styling the down arrow */
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: '';
+        border-left: .25em solid transparent;
+        border-right: .25em solid transparent;
+        border-top: .375em solid rgba(0,0,0, 0.12);
+        pointer-events: none;
+    }
+}
+.or-text {
+	text-align: center;
+	color: #aaa;
+	padding-top: 150px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.divider {
+	border-style: solid;
+    border-color: #ddd;
+    border-top-width: 1px;
+    border-bottom-width: 0px;
+}
+.mdl-list__item-avatar, .mdl-list__item-avatar.material-icons {
+	background-color: #fff;
+	color: #757575;
+}
+.json-cont {
+	width: 100%;
+	height: 484px;
+	border-color: #efefef;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #666;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.json-cont:focus {
+	outline: none;
+}
+.json-filter {
+	margin-bottom: 20px;
+}
+.json-filter:after, .json-filter:before {
+	right: 100%;
+	top: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.json-filter:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #fff;
+	border-width: 12px;
+	margin-top: -12px;
+}
+.json-filter:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #ddd;
+	border-width: 13px;
+	margin-top: -13px;
+}
+.status-fetch {
+	float: left;
+	width: 90%;
+}
+.cancel-btn {
+	float: right;
+	width: 10%;
+}
+.cancel-btn .material-icons {
+	color: red;
+	text-align: center;
+	font-size: 22px;
+}
+.less-wide-tbox {
+	width: 260px;
+}
+.custom-est-icon {
+	padding: 2px;
+}
+.db-table {
+	width: 100%;
+	border: none;
+}
+.db-table thead tr td {
+	font-weight: bold;
+}
+.db-table thead tr td {
+	padding: 10px;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #000;
+}
+.db-table tbody tr td {
+	padding: 10px;
+}
+.db-table tbody tr:nth-child(even) td {
+	background-color: #fbfbfb;
+}
+.clean-cont {
+	margin-top: 50%;
+}
+#waiting-prog .bufferbar {
+	background-image: none !important;
+}
+#waiting-prog .bar1 {
+	display: none !important;
+}
+#noisy-tweets {
+	width: 100%;
+}
+#noisy-tweets .mdl-cell {
+	float: left;
+}
+#noisy-tweets .mdl-cell .mdl-card {
+	min-height: 120px;
+	max-height: 120px;
+}
